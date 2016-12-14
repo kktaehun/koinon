@@ -1,8 +1,6 @@
 # Koinon
 
 ## Building
-  npm run clean
-  npm run build
 
 ## DEV
   npm run development
