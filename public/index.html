@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app="koinonApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Koinon</title>
+</head>
+<body>
+  <!-- navbar -->
+  <toolbar></toolbar>
+  <!-- content -->
+  <div>
+  <section layout="row" flex>
+    <!-- left sidenav -->
+    <sidenav></sidenav>
+    <!-- page -->
+    <md-content flex layout-padding>
+      <div ui-view>
+      </div>
+    </md-content>
+  </section>
+  </div>
+
+</body>
+  <script src="/bundle.js"></script>
+</html>
